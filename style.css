@@ -1,0 +1,454 @@
+/*  ESTILOS GENERALES */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-oscura{
+   background-color: #bdbdbd;
+    color: white;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    margin-top: 30px; 
+}
+
+.seccion-texto{
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+    font-size: 1.3rem;
+
+}
+
+.seccion-descripcion{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #606060;
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+.seccion-descripcion2{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #606060;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.texto-negro{
+    color: black;    
+}
+
+.texto-blanco{
+    color: white;
+}
+
+/* NAVBAR */    
+.navbar{
+    background-color:  transparent; 
+    margin-bottom: -100px;
+    margin-top: 0px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    margin-right: 10px;
+    margin-top: -70px;
+}
+/* Pasos para la compra */
+
+.atras{
+    display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+/* Pasos para la compra */
+
+.atencionPersonalizada{
+margin-bottom: 130px;
+}
+
+.btn.btn-primary{
+    background: #bdbdbd;
+    border: none;
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+    color: black;
+    padding: 10px;
+}
+
+.btn.btn-secondary{
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+.btn.btn-primaryhover{
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-primary:active{
+    background-color: black;
+    color: white;
+}
+
+.modal-title{
+    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+.modal-body{
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+/* CARRUSELES*/
+.carousel{
+margin-bottom: 50px;
+}
+
+.carousel-inner{
+    margin-top: 40px;
+    width: 700px;
+    height: 600px;
+
+}
+
+/* CONTACTO */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 60px;
+    padding: 10px;
+    color: black;
+}
+
+.contacto .rectangulo{
+margin-top: -5.5rem;
+background-color: #ffffff;
+border-radius: 100px;
+box-shadow: 0px 1px 5px 1px;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.seccion-titulo-contacto{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.btn-info{
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    background-color: #bdbdbd;
+    color: black;
+    border: none;
+}
+
+.btn-info:hover{
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-info:active{
+    background-color: black;
+    color: white;
+}
+
+/* FOOTER*/
+footer{
+    min-height: 150px;
+}
+
+.footer-texto{
+    font-size: 1.3rem;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    color: black;
+}
+
+.iconos-redes-sociales a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+
+.iconos-redes-sociales i{
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.01s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid #000000
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+font-size: 1rem;
+color: black;
+padding: 5px 0 0 0;
+margin: 0 0 20px 0;
+}
+
+/* RESPONSIVE*/
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+    display: none;
+    }
+    .hero .imagen{
+    max-width: 80%;
+    }
+    .footer-texto{
+    font-size: 0.9rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .proyecto{
+    border: none;
+    }
+    .experiencia .columna {
+margin-bottom: 15px;
+    }
+    .experiencia .columna2 {
+        margin-bottom: 15px;
+            }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 15px; 
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero.inferior.imagen{
+        max-width: 600px;
+    }
+    .stack .rectangulo{
+        width: 95%;
+    }
+    .stack img {
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .hdos{
+        font-size: 1.1rem;
+    }
+    .iconos-redes-sociales a{
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+    .footer-logo{
+        height: 60px;
+        width: 60px;
+    }
+    .footer-texto{
+        font-size: 0.9rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .overlay{
+        top: 80%;
+        left: 50%;
+    }
+    
+    .overlay p{
+        font-size: 20px;
+        font-weight:500;
+    }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 15px; 
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 1.2rem
+    }
+    .stack .rectangulo{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .stack img {
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+    }
+    .stack .container{
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .contacto button{
+        padding: 0.5em 2em;
+        margin-top: 10px;
+    }
+    .contacto .container{
+        padding: 5px 30px ;
+        min-height: 180px;
+        max-width: 600px;
+    }
+    .seccion-descripcion{
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+.testimonio-imagen{
+    height: 120px;
+    width: 120px;
+}
+.testimonio-texto{
+    font-size: 18px;
+}
+.seccion-titulo{
+    font-size: 1.5rem;
+}
+.seccion-titulo-stack{
+    font-size: 1.5rem;
+}
+.seccion-texto{
+    font-size: 0.9rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.experiencia-titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia .columna {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+.experiencia .columna2 {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text{
+font-size: 0.9rem;
+}
+
+.text-body-secondary{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.btn-info{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.articulos .card-header{
+    font-size: 1.1rem;
+    }
+    
+    .list-group li{
+        font-size: 0.9rem;
+    }
+
+    .testimonio-texto{
+        font-size: 0.9rem;
+        max-width: 80%;
+    }
+    
+    .testimonio-info .cliente{
+        font-size: 1rem;
+    }
+
+    .contacto .descripcion{
+        font-size: 0.9rem;
+    }
+
+    .contacto button{
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .seccion-descripcion{
+        font-size: 1rem;
+    }
+
+    .testimonios .seccion-descripcion{
+        font-size: 1rem;
+    }
+}
