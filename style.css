@@ -79,9 +79,10 @@ section{
 
 .atras{
     display: flex;
-  justify-content: end;
-  margin: 30px;
-  margin-top: 20px;
+  justify-content: start;
+  margin-right: 20px;
+  margin-top: -10px;
+  width: 120px;
 }
 
 /* Pasos para la compra */
@@ -135,7 +136,7 @@ margin-bottom: 50px;
 
 .carousel-inner{
     margin-top: 40px;
-    width: 700px;
+    width: 600px;
     height: 600px;
 
 }
